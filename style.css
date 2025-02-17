@@ -111,16 +111,39 @@ body {
   }
 }
 @media (max-width: 434px) {
+  .main-wrap {
+    align-items: flex-start;
+    margin-top: 3rem;
+  }
+  .main-area {
+    margin-bottom: 3rem;
+  }
+  .title {
+    font-size: 2.5rem;
+    margin-top: 6rem;
+  }
+  .sub-title {
+    font-size: 1.2rem;
+  }
+  .img-area {
+    width: 20rem;
+    height: 15rem;
+  }
   #user-input {
-    width: 8rem;
+    width: 6rem;
   }
   #play-button {
-    margin-left: 0.5rem;
+    margin-left: 0.3rem;
   }
   #reset-button {
-    margin-left: 0.5rem;
+    margin-left: 0.3rem;
   }
   #hint-button {
-    margin-left: 0.5rem;
+    margin-left: 0.3rem;
+  }
+}
+@media (max-height: 674px) {
+  .main-wrap {
+    height: 100%;
   }
 }

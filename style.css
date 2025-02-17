@@ -1,3 +1,126 @@
+body {
+  background-image: url(images/88848_55838_3134.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-wrap {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.main-area {
+  width: 45rem;
+  height: 45rem;
+  background-color: #ff1e9d;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  border-radius: 30px
+}
+.title {
+  font-size: 3.5rem;
+}
+.sub-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  line-height: 2rem;
+}
+.img-area {
+  width: 25rem;
+  height: 20rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+#result-area {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 1rem;
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  color: red;
+}
+.text-area {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.sub-area {
+  display: flex;
+}
 #hint-area {
   display: none;
+  margin-left: 1rem;
+}
+#user-input {
+  width: 25rem;
+  height: 4rem;
+  border: none;
+  border-radius: 20px;
+  color: #ff1e9d;
+  font-size: 2rem;
+  text-align: center;
+  outline: none;
+}
+#play-button {
+  background-color: #fff;
+  width: 3.5rem;
+  height: 3.5rem;
+  border: none;
+  border-radius: 100px;
+  font-weight: 700;
+  margin-left: 1rem;
+  position: relative;
+  top: -0.4rem;
+  color: #ff1e9d;
+}
+#reset-button {
+  background-color: #fff;
+  width: 3.5rem;
+  height: 3.5rem;
+  border: none;
+  border-radius: 100px;
+  font-weight: 700;
+  margin-left: 1rem;
+  position: relative;
+  top: -0.4rem;
+  color: #ff1e9d;
+}
+#hint-button {
+  background-color: #fff;
+  width: 5rem;
+  height: 3.5rem;
+  border: none;
+  border-radius: 100px;
+  font-weight: 700;
+  margin-left: 1rem;
+  position: relative;
+  top: -0.4rem;
+  color: #ff1e9d;
+}
+@media (max-width: 674px) {
+  #user-input {
+    width: 10rem;
+  }
+}
+@media (max-width: 434px) {
+  #user-input {
+    width: 8rem;
+  }
+  #play-button {
+    margin-left: 0.5rem;
+  }
+  #reset-button {
+    margin-left: 0.5rem;
+  }
+  #hint-button {
+    margin-left: 0.5rem;
+  }
 }

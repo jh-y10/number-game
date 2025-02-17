@@ -1,20 +1,43 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>숫자게임</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <h1>숫자 맞추기 게임!</h1>
-  <div id="result-area"></div>
-  <div id="chance-area"></div>
-  <div id="hint-area"></div>
-  <input id="user-input" type="number" placeholder="1 ~ 100 사이의 숫자를 입력해주세요" />
-  <button id="play-button">Go!</button>
-  <button id="reset-button">Reset</button>
-  <button id="hint-button">정답 보기</button>
-  <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>숫자게임</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="main-wrap">
+      <div class="main-area">
+        <div class="title-area">
+          <h1 class="title">오징어 숫자 게임</h1>
+          <div class="sub-title">
+            <div>목숨을 건 업앤다운</div>
+            <div>게임에 참여 하시겠습니까?</div>
+          </div>
+        </div>
+        <div class="img-area">
+          <div id="result-area"></div>
+          <img class="img-item" src="images/img_2.gif" alt="" width="100%" height="100%" />
+        </div>
+        <div class="text-area">
+          <div class="sub-area">
+            <div id="chance-area"></div>
+            <div id="hint-area"></div>
+          </div>
+        </div>
+        <div class="input-area">
+          <input
+            id="user-input"
+            type="number"
+            placeholder="1 ~ 100 사이의 숫자를 입력"
+          />
+          <button id="play-button">Go!</button>
+          <button id="reset-button">Reset</button>
+          <button id="hint-button">정답 보기</button>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
 </html>
